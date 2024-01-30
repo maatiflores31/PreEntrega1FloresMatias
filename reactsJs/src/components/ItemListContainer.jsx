@@ -1,12 +1,30 @@
+import { useEffect, useState } from "react";
+import arrayProductos from "./json/productos.json"
+import ItemList from "./ItemList";
+import ItemDetailContainer from "./ItemDetailContainer";
+import { useParams } from "react-router-dom";
+import Carousel from "./Carousel";
+
 const ItemListContainer = ({mensaje}) => {
+    const [items, setItems] = useState([]);
+    const {id} = useParams();
+
+    useEffect(()=>{
+        const promesa= new Promise (resolve => {
+            setTimeout(()=>{
+                resolve(id ? arrayProductos.filter(item => item.categoria === id) : arrayProductos);
+            }, 2000)
+        })
+        promesa.then(data => {
+            setItems(data);
+        })
+    },[id]);
+
     return (
-        <div className="container my-3">
-            <div className="row my-3">
-                <div className="col text-center">
-                    <div className="alert alert-info" role="alert">{mensaje}</div>
-                </div>
-            </div>
-        </div>
+        <>
+            {id ? "" : <Carousel/>}
+            <ItemList items={items} />
+        </>
     )
 }
 export default ItemListContainer;

@@ -1,6 +1,7 @@
 import LogoGym from "./LogoGym";
 import Login from "./Login";
 import CartWidget from "./CartWidget";
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
     return (
@@ -12,16 +13,16 @@ const NavBar = () => {
                 <div className="col-md-8 d-flex align-items-center">
                     <ul className="nav">
                         <li className="nav-item">
-                            <a className="nav-link text-dark fs-4" href="#">Inicio</a>
+                            <NavLink className="nav-link text-dark fs-4" activeclassname="active" to={"/"}>Inicio</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-dark fs-4" href="#">Reservar</a>
+                            <NavLink className="nav-link text-dark fs-4" activeclassname="active" to={"/"}>Productos</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-dark fs-4" href="#">Tienda</a>
+                            <NavLink className="nav-link text-dark fs-4" activeclassname="active" to={"/category/fitness"}>Fitness</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-dark fs-4" href="#">Contactos</a>
+                            <NavLink className="nav-link text-dark fs-4" activeclassname="active" to={"/category/musculacion"}>Musculacion</NavLink>
                         </li>
                     </ul>
                 </div>

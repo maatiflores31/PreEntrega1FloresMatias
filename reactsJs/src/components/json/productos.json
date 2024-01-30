@@ -1,0 +1,90 @@
+[
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSBXNN8QinQcQ2iUY-mP0Ubp3vTOXP6b5ySKL-vgiO3fNydpuXbAjv7OCYBz1J7vgofNM&usqp=CAU",
+        "categoria": "fitness",
+        "titulo": "Banda Gym",
+        "precio": 15000,
+        "id":1,
+        "stock":30
+    },
+    {
+        "img": "https://mirfitness.com.ar/wp-content/uploads/BARRA-OLIMPICA-RECTA-DE-120-MTS-DE-8-KG-1.jpg",
+        "categoria": "musculacion",
+        "titulo": "Barra Olimpica",
+        "precio": 35000,
+        "id":2,
+        "stock":10
+    },
+    {
+        "img": "https://suplementossm.com.ar/wp-content/uploads/2020/05/image_prodprod980042_largeImage_X_450_white.jpg",
+        "categoria": "fitness",
+        "titulo": "Bolsa Gym",
+        "precio": 22000,
+        "id":3,
+        "stock":10
+    },
+    {
+        "img": "https://www.titaniumstrength.es/blog/wp-content/uploads/2023/02/pm178tt01.jpg",
+        "categoria": "fitness",
+        "titulo": "Cajon Esten",
+        "precio": 18000,
+        "id":4,
+        "stock":10
+    },
+    {
+        "img": "https://tienda.gfitness.com.ar/web/image/product.template/1866/image_1024?unique=2fb54f3",
+        "categoria": "fitness",
+        "titulo": "Cajon Salto",
+        "precio": 17000,
+        "id":5,
+        "stock":10
+    },
+    {
+        "img": "https://http2.mlstatic.com/D_NQ_NP_860687-MLA43762404657_102020-O.webp",
+        "categoria": "musculacion",
+        "titulo": "Disco 10kg",
+        "precio": 14000,
+        "id":6,
+        "stock":10
+    },
+    {
+        "img": "data:image/jpeg;base64,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muk/Q7DY0TUbu1IgVWQHjgHaPbydPKF0qIKB6Q9CsZg5du+WpD12AmB+2y5b23A4rmWYoEhzTB0gnwBX1IuY2/0HwWLlz6Qa8/7lPzHfxQId/ECrooJ9QP8ATY13ON0+Iz75WE4Km7JzmngRI7jYqydq9UlZt8NiGvGjKoLT9tsg/ZC5TG9DtpUSd7CvIHrUt14NuDCXewIOads86Pae8j3r8OBfxb9ofipFem9lnsez99jmfeAWAYho9ZviEHn6E/i37TfxX79BjN7R4n4I/FMizh7JXvD0alT/AE6dSp+4x7vuhB7bhaY1Lj4DxustNwb6IDef58exbjZvQjadaNzDOY0+tV3aYHMtcd7wBXZbJ6oHEA4nExlLKI/reP6UFbvrtGZvPGb/ADC63YHQLG4ohzwcPRI9KpO+R+zT9IdriFa2w+hmCwp3qVEb/wD1HS5/c507v8MLolNHN9GOh2FwQ/RMmoRDqr7vdxg5NHJoC6REQEREBERAREQEREBERAREQEREBERAREQEREHlzQc1HfgKRzpsPaxp+ClIgis2fRFxSpjsY0fBSAIyXpEBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERB//Z",
+        "categoria": "musculacion",
+        "titulo": "Disco 5kg",
+        "precio": 8000,
+        "id":7,
+        "stock":10
+    },
+    {
+        "img": "https://acdn.mitiendanube.com/stores/919/712/products/mancuerna-hexagonal-odea-10-kg-11-cc777ac81f2c3f76e416244933857566-640-0.png",
+        "categoria": "fitness",
+        "titulo": "Mancuerna Exagonal",
+        "precio": 24000,
+        "id":8,
+        "stock":10
+    },
+    {
+        "img": "https://www.digitalsport.com.ar/files/products/5b97ecf06121f-290656-500x500.jpg",
+        "categoria": "fitness",
+        "titulo": "Soga de saltar",
+        "precio": 5000,
+        "id":9,
+        "stock":10
+    },
+    {
+        "img": "https://http2.mlstatic.com/D_NQ_NP_726609-MLA48678391820_122021-O.webp",
+        "categoria": "fitness",
+        "titulo": "Soga Crossfit",
+        "precio": 9000,
+        "id":10,
+        "stock":10
+    },
+    {
+        "img": "https://jbh.com.ar/wp-content/uploads/2020/11/soga-triceps.jpg",
+        "categoria": "musculacion",
+        "titulo": "Soga de Triceps",
+        "precio": 7000,
+        "id":11,
+        "stock":10
+    }
+]
