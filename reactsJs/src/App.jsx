@@ -1,4 +1,3 @@
-
 import Carta from './components/Carta';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
