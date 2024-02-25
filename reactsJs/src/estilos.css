@@ -1,6 +1,21 @@
-.fondoCeleste {
-    background-color: lightblue;
+.textoPrimario {
+    color: #00d9c0 !important;
 }
-.fondoRojo {
-    background-color: lightcoral;
+.fondoPrimario {
+    background-color: #00d9c0 !important ; 
+}
+.textoNegro {
+    color: black;
+}
+.fondoNegro {
+    background-color: black;
+}
+.textoBlanco {
+    color: white;
+}
+.boton {
+    width: 200%;
+}
+.bordeNav {
+    border-left: solid #00d9c0 1px ;
 }

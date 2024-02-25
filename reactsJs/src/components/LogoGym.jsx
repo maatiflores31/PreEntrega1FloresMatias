@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
-import Logo from "../assets/logo-gym.jpg";
 
 const LogoGym = ({tamano}) => {
     return (
         <Link to={"/"}>
-            <img src={Logo} alt="BullDog Gym" width={tamano} />
+            <img src="https://m.media-amazon.com/images/I/71ODek7bpiL._AC_SL1500_.jpg" alt="BullDog Gym" width={tamano} />
         </Link>
         
     )

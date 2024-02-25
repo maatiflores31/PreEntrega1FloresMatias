@@ -1,19 +1,11 @@
 const Menu = () => {
     return (
-        <ul className="nav">
-            <li className="nav-item">
-                <a className="nav-link text-dark fs-5" href="#">Actividades</a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link text-dark fs-5" href="#">Profesores</a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link text-dark fs-5" href="#">Precios</a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link text-dark fs-5" href="#">Contactos</a>
-            </li>
-        </ul>
+        <div className="m-4">
+            <h2 className="textoPrimario" >Contacto:</h2>
+            <p className="textoBlanco" >mail: floresmatiasgabriel@gmail.com</p>
+            <p className="textoBlanco" >ig: maatiflores.31</p>
+            <p className="textoBlanco" >linkedin: https://www.linkedin.com/in/matii-flores-0990b7282/</p>
+        </div>
     )
 }
 
